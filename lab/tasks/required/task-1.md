@@ -20,7 +20,7 @@ Available products:
 - Telegram
 - Wildberries.ru
 
-Alternatively, choose another full-stack product with at least a million users. In that case, you'll have to [visualize the architecture](../../appendix.md#visualize-the-architecture) on your own.
+Alternatively, choose another full-stack product with at least a million users. In that case, you'll have to [visualize the architecture](../../appendix/visualize-architecture.md) on your own.
 
 ### 3. Find the diagrams
 
@@ -60,7 +60,7 @@ Provide:
 
    Example: `![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component Diagram.svg)`
 
-2. Provide a link to the `PlantUML` code for that [component diagram](../../appendix.md#visualize-the-architecture#component-diagram).
+2. Provide a link to the `PlantUML` code for that [component diagram](../../appendix/architectural-views.md#component-diagram).
   
    Example: `![Telegram Component Diagram code](./diagrams/src/telegram/component-diagram.puml)`
 
@@ -71,14 +71,14 @@ Provide:
 #### `## Data flow`
 
 1. Embed the product's `Sequence Diagram.svg`.
-2. Provide a link to the `PlantUML` code for that [sequence diagram](../../appendix.md#visualize-the-architecture#sequence-diagram).
+2. Provide a link to the `PlantUML` code for that [sequence diagram](../../appendix/architectural-views.md#sequence-diagram).
 3. Describe what happens when a user action described by the diagram occurs.
 4. Mention which components talk to each other and what data they exchange.
 
 #### `## Deployment`
 
 1. Embed the product's `Deployment Diagram.svg`.
-2. Provide a link to the `PlantUML` code for that [deployment diagram](../../appendix.md#visualize-the-architecture#deployment-diagram).
+2. Provide a link to the `PlantUML` code for that [deployment diagram](../../appendix/architectural-views.md#deployment-diagram).
 3. Briefly describe where the components are deployed.
 
 #### `## Assumptions and Open Questions`
