@@ -8,7 +8,7 @@ Provides access to taxis.
 ## Main components
 
 ![Yandex Go Component Diagram](../../docs/diagrams/out/yandex-go/architecture-component/Component%20Diagram.svg)
-[Yandex Go Component Diagram puml code](../diagrams/src/yandex-go/architecture-component.puml)  
+[Yandex Go Component Diagram puml code](../../diagrams/src/yandex-go/architecture-component.puml)  
   
 Maps & Routing Service: Connect to Yandex Maps in order to find closest taxis.  
 Payment Service: Connects to Yandex Pay and provides a way to pay for services.  
@@ -32,7 +32,9 @@ The components are deployed mostly on Yandex Cloud.
 ## Assumptions
 
 I assume that Notification Service primary function is spam messages.
+I assume that I know anything.
 
 ## Open questions
 
 What are the exact algorithms that go into dispatching approporiate drivers, is it purely based on distance and selected type or are there other factors?
+WHy would they create a notification service if it is only function to worsen peoples lives?
