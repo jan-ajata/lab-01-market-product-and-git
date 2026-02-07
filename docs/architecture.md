@@ -7,7 +7,7 @@ Provides access to taxis.
 
 ## Main components
 
-![Yandex Go Component Diagram](../../docs/diagrams/out/yandex-go/architecture-component/Component%20Diagram.svg)
+![Yandex Go Component Diagram](../diagrams/out/yandex-go/architecture-component/Component%20Diagram.svg)
 [Yandex Go Component Diagram puml code](../diagrams/src/yandex-go/architecture-component.puml)  
   
 Maps & Routing Service: Connect to Yandex Maps in order to find closest taxis.  
